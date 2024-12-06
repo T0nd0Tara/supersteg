@@ -1,4 +1,15 @@
 [project]
-requires-python = ">= 3.12"
-dependencies = [ ]
+name="supersteg"
+description="A script for many types of stenography encodings to pass any validator"
+authors = [
+ {name="T0nd0Tara"},
+]
+license = {file = "LICENSE"}
+dynamic=["version"]
+
+requires-python = ">= 3.10"
+dependencies = [ 
+  "numpy",
+  "opencv-python",
+]
 
